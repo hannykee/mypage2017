@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>island1</title>
+  <meta charset="utf-8">
+  <style>
+   h1 {font-size:25pt; font-family:"강B";  color:white;}
+   #hannyworld {font-size:30pt; font-family:"강B"; color:#540046;}
+
+   #toptitle {background-color:#E8D9FF; margin-right:150px; margin:30px; padding:10px; border:10pt double white}
+   #navi {display:block; background-color:#FFE8FF; border:2px dashed white; text-align:center;
+        margin-left:150px; margin-right:100px; padding:10px; font-size:12pt;}
+   .star {color:purple;}
+   a:link {color:purple;font-weight:bold;}
+   a:visited {color:pink; font-weight:bold;}
+
+   aside {display:block; width:10%; background-color:#E8D9FF; float:right;border:2px dashed #DBB5C8;
+         border-radius:10%; }
+   aside p {display:block;background-color:white; margin:15px; border-radius:5; text-align:center;
+        }
+   
+   h2:before {content:"◆"}
+   h2:after {content:"◆"}
+   figure {position:relative; float:left;}
+   img {opacity:0.4;}
+   img:hover{border:5px dotted black; opacity: 1; transition: opacity 1s; transform:rotate(3deg);}
+   #wish{text-align:center;}
+   figcaption {text-align:center; color: white; background-color:#8A2457; font-weight:bold;}
+  </style>
+ </head>
+ 
+ <body>
+  <header> 
+     <br>
+     <br>
+     <br>
+    <div id="toptitle">
+       <br>
+       <br>
+       <br>
+       <br>
+       <br> 
+       <br>   
+    <h1>Welcome To The <span id="hannyworld">Hanny World ! </span></h1> 
+     </div>  
+  </header>
+  
+  <article>
+   <nav id="navi"> 
+    <a href="index.html"> HOME</a> &nbsp; &nbsp; &nbsp; &nbsp;<span class="star">★</span>&nbsp; &nbsp; &nbsp;  
+    <a href="island1.html">여행Island</a> &nbsp; &nbsp; &nbsp; <span class="star">★</span>&nbsp; &nbsp; &nbsp; &nbsp;  
+    <a href="island2.html">뮤지컬Island</a> &nbsp; &nbsp; &nbsp; <span class="star">★</span>&nbsp; &nbsp; &nbsp; &nbsp;
+    <a href="island3.html">수집Island</a> &nbsp; &nbsp; &nbsp; <span class="star">★</span>&nbsp; &nbsp; &nbsp; &nbsp; 
+    <a href="island4.html">추억Island</a> </nav>
+  </article>
+  <br>
+
+  <article style="margin-left:140px;">
+   <section><a id="back"></a>
+    <div id="wish">
+     <h2>&nbsp; Hanny의 여행 위시리스트 &nbsp; </h2>
+     ☆는 앞으로 여행 갈 국가 / ★는 여행 다녀온 국가 
+     <br>&nbsp &nbsp; &nbsp;    (이미지에 마우스를 올려보세요!)<br>
+       <br><br>
+      <div>
+					&nbsp &nbsp; &nbsp;★당신이 가고 싶은 나라와 도시를 화면에 추가하세요 ! <br><br>
+					<button onclick = "toggleVisibility('roma_vi');">이탈리아 로마</button>
+					<button onclick = "toggleVisibility('rus_vi');">러시아 모스크바</button>
+					<button onclick = "toggleVisibility('bei_vi');">중국 베이징</button> 
+					<a href="#check">맨밑으로</a>
+		  </div>
+		</div>
+	<script type="text/javascript">
+				function toggleVisibility(id) {
+    			var dom = document.getElementById(id);
+
+    			if (dom.style.visibility == "hidden")
+     		 dom.style.visibility = "visible";
+   			 else
+     		 dom.style.visibility = "hidden";
+				}
+			</script>
+ 
+    <figure>
+     <img src="image\spa.jpg" 
+     width="400" height="300" alt="스페인 바르셀로나">
+     <figcaption >&nbsp;  ☆ &lt;스페인 바르셀로나&gt;</figcaption><br> 
+    </figure><br><br> &nbsp;&nbsp;
+    <figure>
+     <img src="image\por.jpg"
+      width="400" height="300" alt="포르투갈 리스본">
+     <figcaption>&nbsp; &nbsp;☆&lt;포르투갈 리스본&gt; </figcaption>
+    </figure> <br>  
+    <br> &nbsp;&nbsp;&nbsp;
+    <figure>
+     <img src="image\ger.jpg" 
+     width="400" height="300" alt="독일">
+     <figcaption>&nbsp; &nbsp;☆&lt;독일&gt; </figcaption>
+    </figure> <br>  
+    <figure>
+     <img src="image\ber.jpg" 
+     width="400" height="300" alt="프랑스 베르사유궁전">
+     <figcaption>&nbsp; &nbsp;☆&lt;프랑스 베르사유궁전&gt;</figcaption><br> 
+    </figure> 
+    
+    <figure>
+     <img src="image\dou.jpg" 
+     width="400" height="300" alt="크로아티아 두브로브니크">
+     <figcaption>&nbsp; &nbsp; ☆&lt;크로아티아 두브로브니크&gt;</figcaption>
+    </figure> <br>  &nbsp;&nbsp;&nbsp;
+    <figure>
+     <img src="image\pra.jpg" 
+     width="400" height="300" alt="체코 프라하">
+     <figcaption>&nbsp; &nbsp;☆&lt;체코 프라하></figcaption><br> 
+    </figure><br>
+    <br>     
+    <figure>
+     <img src="image\rou.jpg" 
+     width="400" height="300" alt="스위스 루체른호수">
+     <figcaption>&nbsp; &nbsp;☆&lt;스위스 루체른호수></figcaption>
+    </figure>  <br>
+  
+    <figure>
+     <img src="image\nyk.jpg" 
+     width="400" height="300" alt="미국 뉴욕">
+     <figcaption>&nbsp; &nbsp; ★&lt;미국 뉴욕></figcaption><br> 
+    </figure>  <br> 
+    <br>
+    <figure>
+     <img src="image\sin.jpg" 
+     width="400" height="300" alt="싱가포르">
+     <figcaption>&nbsp; &nbsp; ★&lt;싱가포르&gt;</figcaption>
+    </figure>  <br> 
+    <figure>
+     <img src="image\hon.jpg" 
+     width="400" height="300" alt="홍콩">
+     <figcaption>&nbsp; &nbsp;★&lt;홍콩&gt;</figcaption><br> 
+    </figure>   <br>
+    <br>
+    <figure>
+     <img src="image\osk.jpg"
+      width="400" height="300" alt="일본 오사카 도톤보리">
+     <figcaption> &nbsp; &nbsp; ★&lt; 일본 오사카 도톤보리&gt;</figcaption><br>
+    </figure>  <br>
+   
+	 </section>
+   	
+   <section>
+      
+     <figure id="roma_vi" style="visibility: hidden;">
+     <img src="image\roma.jpg"
+      width="400" height="300" alt="이탈리아 로마"  style="position: relative; " />
+     <figcaption> &nbsp; &nbsp; ★&lt; 이탈리아 로마&gt;</figcaption><br>
+    </figure>   <br>
+    
+     <figure id="rus_vi" style="visibility: hidden;">
+     <img src="image\rus.jpg"
+      width="400" height="300" alt="러시아 모스크바" style="position: relative; " />
+     <figcaption> &nbsp; &nbsp; ★&lt; 러시아 모스크바&gt;</figcaption><br>
+    </figure>   <br>
+    
+     <figure id="bei_vi" style="visibility: hidden;">
+     <img src="image\bei.jpg"
+      width="400" height="300" alt="중국 베이징" style="position: relative; " />
+     <figcaption> &nbsp; &nbsp; ★&lt; 중국 베이징&gt;</figcaption><br>
+    </figure>   <br>
+    
+    
+					
+    
+     
+   </section>
+   
+  <a id="check"></a>
+  </article>
+ 
+ 
+  
+ </body>
+ 
+</html> 

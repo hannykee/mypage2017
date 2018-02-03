@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>feedbackpage</title>
+  <meta charset="utf-8"/>
+  <style>
+  h1 {font-size:25pt; font-family:"강B";  color:white;}
+   #hannyworld {font-size:30pt; font-family:"강B"; color:#540046;}
+
+   #toptitle {background-color:#E8D9FF; margin-right:150px; margin:30px; padding:10px; border:10pt double white}
+   #navi {display:block; background-color:#FFE8FF; border:2px dashed white; text-align:center;
+        margin-left:150px; margin-right:100px; padding:10px; font-size:12pt;}
+   .star {color:purple;}
+   a:link {color:purple;font-weight:bold;}
+   a:visited {color:pink; font-weight:bold;}
+   section {margin: 100px;}
+   fieldset {padding:20px; background-color:#FFFFE9; opacity:0.9; border:1px dashed black;}
+   textarea {overflow:auto;}
+  </style>
+ </head>
+ 
+ <body>
+  <header> 
+ <br>  
+ <br>  
+ <br>  
+ <div id="toptitle">  
+ <br>  
+ <br>  
+ <br>  
+ <br>  
+ <br>  
+ <br>  
+ <h1>Welcome To The <span id="hannyworld">Hanny World ! </span></h1>  
+ </div>   
+  </header>
+  
+  <article>
+    <nav id="navi"> 
+    <a href="home.html"> HOME</a> &nbsp; &nbsp; &nbsp; &nbsp;<span class="star">★</span>&nbsp; &nbsp; &nbsp;  
+    <a href="island1.html">여행Island</a> &nbsp; &nbsp; &nbsp; <span class="star">★</span>&nbsp; &nbsp; &nbsp; &nbsp;  
+    <a href="island2.html">뮤지컬Island</a> &nbsp; &nbsp; &nbsp; <span class="star">★</span>&nbsp; &nbsp; &nbsp; &nbsp;
+    <a href="island3.html">수집Island</a> &nbsp; &nbsp; &nbsp; <span class="star">★</span>&nbsp; &nbsp; &nbsp; &nbsp; 
+    <a href="island4.html">추억Island</a> </nav>
+  </article>
+  <br>
+  <article>
+   <section>
+    <h2>Hanny World에 대한 피드백</h2>
+   </section>
+   
+   <section>
+    <form name="aboutweb" method="get" action="form_result.php">
+     <fieldset>
+      이름 : <input type="text" name="user_name" value="본명을 입력해주세요"/> <br>
+      나이대 : <input type="number" name="user_age" step="10" max="90" min="10"/> <br>
+      성별 : <input type="radio" name="user_sex" value="male"/>남자
+         <input type="radio" name="user_sex" value="female"/>여자 <br>
+      이메일 : <input type="email" name="user_email" placeholder="----@---.com" required/>&nbsp;<span style="color:red;"오타에 주의해주세요!</span></span><br>
+     </fieldset>
+     <br>
+     <fieldset>
+      <legend>본 웹페이지와 동일한 관심사에 체크해주세요.</legend>
+      <input type="checkbox" name="concern" value="relationship"/>관계(네트워킹) &nbsp; &nbsp;
+      <input type="checkbox" name="concern" value="musical"/>뮤지컬 &nbsp; &nbsp;
+      <input type="checkbox" name="concern" value="perfume"/>향수(수집) &nbsp; &nbsp;
+      <input type="checkbox" name="concern" value="foodtrip"/>추억의 맛집 &nbsp; &nbsp;
+     </fieldset>
+     <br>
+     <fieldset>
+      <legend> 웹사이트 만족도 </legend>
+      구성 : 1<input type="range" name="a1" min="1" max="5" value="3"/>5
+   <br> 정보 : 1<input type="range" name="b1" min="1" max="5" value="3"/>5
+   <br> 전달 : 1<input type="range" name="c1" min="1" max="5" value="3"/>5
+   <br> 디자인 : 1<input type="range" name="d1" min="1" max="5" value="3"/>5
+     </fieldset>
+     <br>
+     <fiedlset>
+      <legend>개선 방향 혹은 추가 정보/의견을 남겨주세요.</legend>
+      <textarea name="idea" cols="100px" rows="10px"> 방문자 여러분의 다양한 의견을 기다립니다:) </textarea>
+     </fiedlset>
+      <p>피드백을 반영하여 더 알찬 웹페이지가 되겠습니다! </p>
+      <input type="submit" value="확인"/>
+      <input type="reset" value="취소"/>
+    </form>
+   </section>
+  </article>
+  
+  
+  <br>
+
+  <footer>
+   김환희 제작 카피라이트 무단 복제를 금지합니다.
+  </footer>
+  
+ </body>
+ 
+</html>  

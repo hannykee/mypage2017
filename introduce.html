@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>home</title>
+  <meta charset="utf-8">
+  <style type="text/css">
+   h1 {font-size:25pt; font-family:"강B";  color:white;}
+   #hannyworld {font-size:30pt; font-family:"강B"; color:#540046;}
+
+   #toptitle {background-color:#E8D9FF; margin-right:150px; margin:30px; padding:10px; border:10pt double white}
+   #navi {display:block; background-color:#FFE8FF; border:2px dashed white; text-align:center;
+        margin-left:150px; margin-right:100px; padding:10px; font-size:12pt;}
+   .star {color:purple;}
+   .notice {text-align:center;}
+   article {display:block; background-color:#E8D9FF; margin-left:50px; margin-right:50px;padding:20px;}
+   aside {display:block;  width:10%; background-color:#E8D9FF; float:right;border:2px dashed #DBB5C8;
+         border-radius:10%; }
+   aside p {display:block;background-color:white; margin:15px; border-radius:10%; text-align:center;
+        }
+   a:link {color:purple;font-weight:bold;}
+   a:visited {color:pink; font-weight:bold;}
+   footer{display:block;background-color:#E8D9FF; margin:30px; padding:10px; text-align:center;}
+   
+  </style>
+ </head>
+ 
+ <body>
+  <header> 
+     <br>
+     <br>
+     <br>
+    <div id="toptitle">
+       <br>
+       <br>
+       <br>
+       <br>
+       <br> 
+       <br>   
+    <h1>★ Welcome To The <span id="hannyworld"> Hanny World ! </span></h1> 
+     </div>  
+  </header>
+  
+  <article>
+   <nav id="navi"> 
+    <a href="index.html"> HOME</a> &nbsp; &nbsp; &nbsp; &nbsp;<span class="star">★</span>&nbsp; &nbsp; &nbsp;  
+    <a href="island1.html">여행Island</a> &nbsp; &nbsp; &nbsp; <span class="star">★</span>&nbsp; &nbsp; &nbsp; &nbsp;  
+    <a href="island2.html">뮤지컬Island</a> &nbsp; &nbsp; &nbsp; <span class="star">★</span>&nbsp; &nbsp; &nbsp; &nbsp;
+    <a href="island3.html">수집Island</a> &nbsp; &nbsp; &nbsp; <span class="star">★</span>&nbsp; &nbsp; &nbsp; &nbsp; 
+    <a href="island4.html">추억Island</a> </nav>
+  </article>
+  <br>
+
+   <br>
+  <article class="notice">
+   <h1>★ 취미소개 페이지 ★</h1>
+   <br> 제가 만든 웹사이트의 구조와 컨텐츠를 소개합니다.
+  </article>
+  
+  <article>
+  	<img src="image\cap1.jpg" width="200" height="150" alt="홈캡쳐"/>
+    <p>홈페이지는 다음과 같이 상단바에 nav태그를 통해 자유롭게 이동할 수 있도록 구성했습니다. 본 웹사이트의 컨셉은
+    	영화 인사이드 아웃에서 나온 것처럼 한 사람의 머리 속을 탐험하는 것입니다. 그래서 인사이드 아웃 이미지를 홈페이지에 크게 
+    	삽입하였습니다. 그리고 각 nav 태그 요소들이 하나의 섬(Island)인 것처럼 나타냈습니다. 간단한 인사말이 있는 본문과
+    	이벤트, 피드백 페이지로 각각 이동할 수 있는 aside요소가 있고, 무단복제를 금지하는 footer요소가 있습니다.</p>
+  </article>  <br>
+  <article>
+  	<img src="image\cap2.png" width="200" height="150" alt="여행섬캡쳐"/>
+    <p>여행리스트는 HannyWorld가 가고 싶은 여행지를 이미자와 이미지캡션으로 묶어서 나타내고 있습니다. 다녀온 여행지와 가고 싶은 여행지를
+    	구분하였으며 마우스 커서를 올렸을 때 동적인 효과가 발생하도록 설정했습니다. 
+    	방문자는 HannyWorld의 여행리스트 외에도 상단의 ‘버튼 (이벤트 onclick 메소드)’을 눌러서 새로운 여행지를 추가할 수 있으며,
+    	 추가된 여행지는 하단 화면에 보여지며 버튼 옆의 ‘맨밑으로’를 통해 한번에 이동할 수 있습니다. 
+    	 새로운 여행지의 모습은 [ getElementByID(‘id’).style.visibility:hidden -> .style.visibility:visable; ] 
+    	 메소드를 이용하여 각각 나타내었습니다. 버튼을 다시 누르면 새로 추가한 여행지가 없어집니다. </p>
+  </article>
+  <br>
+  <article>
+  	<img src="image\cap3.jpg" width="200" height="150" alt="뮤지컬캡쳐"/>
+    <p>뮤지컬 섬은 HannyWorld가 재미있게 관람했던 뮤지컬에 대한 정보를 나타내었습니다. 각각 뮤지컬을 하이퍼링크를 통해 문서 내 
+    	특정 위치로 편안하게 이동할 수 있으며, 컨텐츠 내에서 상단 목록으로 바로 이동할 수도 있습니다. 각 뮤지컬에 대한 서술과 함께
+    	해당 뮤지컬을 간단히 감상할 수 있도록 iframe에 동영상을 삽입하였습니다. 또한 추가 정보 탐색을 용이하게 하도록 각각 하이퍼링크를
+    	통해 관련사이트를 연결하였습니다. 내용의 구조가 명확히 드러나도록 스타일요소를 이용하여 각 section별 색상을 달리 하였습니다.</p>
+  </article>   <br>
+    <article>
+  	<img src="image\cap4.jpg" width="200" height="150" alt="수집캡쳐"/>
+    <p>수집섬은 향수가 주제입니다. HannyWorld가 사용한 향수에 대한 원료 정보 및 간단한 평가를 컨텐츠로 구성하였고, 다른 사람들의
+    	평가를 함께 확인할 수 있도록 향수 사이트에 하이퍼링크를 걸어두었습니다. 그리고 각 향수 이미지를 컨텐츠 내에는 작게 삽입하고
+    	각 이미지를 눌렀을 때 오른쪽의 iframe에 이미지가 크게 보여지도록 설정하였습니다.또한 개별적인 향수의 이미지가 잘 나타나도록 
+    	section의 색상을 달리하였습니다. </p>
+  </article>  <br>
+  
+    <article>
+  	<img src="image\cap5.jpg" width="200" height="150" alt="추억캡쳐"/>
+    <p>추억의 맛집을 리스트로 하여 나타내었습니다. 최상단에 iframe을 두고 각 리스트 옆의 하이퍼링크를 클릭했을 때 타 웹페이지의 정보가
+    	iframe 안에서 열리도록 하였습니다. 
+    	캔버스 상에 마우스 이벤트를 이용해 그림 그리는 기능을 활용하여, 맛집 정보에 대해 메모하고 이를 오른쪽 버튼을 눌러 png로 저장할 수 있는 
+      기능을 제공합니다. 마지막으로, 마음에 드는 맛집을 바로 예약할 수 있도록 전화번호를 화면에 보여줍니다.
+      각 음식점 이름 버튼 위에 마우스 커서를 올리면 (onmouseover) innerHTML기능을 통해 <h2>태그가 적용된 전화번호가 
+      각각 나타납니다.</p>
+  </article>  <br>
+  <article>
+  	<img src="image\cap6.jpg" width="200" height="150" alt="이벤트캡쳐"/>
+    <p>새로운 이벤트가 올라오면 확인할 수 있습니다.</p>
+  </article>  <br>
+    <article>
+  	<img src="image\cap7.jpg" width="200" height="150" alt="피드백캡쳐"/>
+  	<img src="image\cap8.jpg" width="200" height="150" alt="php서버캡쳐"/>
+    <p>HannyWorld웹페이지에 대한 간단한 피드백을 작성할 수 있습니다.
+    	 방문자는 ‘간단한 개인정보, 관심사, 웹사이트 만족도, 추가정보’를 입력하고 확인 버튼을 누르게 됩니다. 이 때 유효성 검사를 수행합니다.
+    	그러면 php 서버처리를 통해 방문자가 입력한 피드백 정보를 문자열로 한 눈에 확인할 수 있습니다.</p>
+  </article>  <br>
+  <article > 감사합니다 :)   <br>
+  	<img src="image\eventimage.jpg" width="200" height="150"  alt="기뻐하는 인사이드 아웃 캐릭터 이미지"/></article>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <footer> 
+   김환희 ⓒ무단 복제를 금지합니다.
+  </footer>
+ </body>
+</html> 

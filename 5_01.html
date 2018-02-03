@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>	5-1	</title>
+		<style type="text/css">
+			h2{font-size:25pt}
+		</style>
+	</head>
+	
+	<body>
+		<h2>수강과목조사</h2>
+		<form method="get" action="form.php">
+			이름: <input type="text" name="person"/><br>
+			학과: <input type="text" name="dev"/><br>
+			학년: <input type="radio" name="gra" value="1"/>1학년
+					 <input type="radio" name="gra" value="2"/>2학년
+					 <input type="radio" name="gra" value="3"/>3학년
+					 <input type="radio" name="gra" value="4"/>4학년 이상<br>
+			수강과목: <input type="checkbox" name="class" value="it기술의 이해"/>IT기술의 이해
+							<input type="checkbox" name="class" value="웹프로그래밍 기초"/>웹프로그래밍 기초
+							<input type="checkbox" name="class" value="UI/UX설계"/>UI/UX설계<br>
+			<p>
+				<input type="submit" value="확인"/>
+				<input type="reset" value="취소"/>
+			</p>
+
+		</form>
+	</body>	
+	
+	
+</html>
